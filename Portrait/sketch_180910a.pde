@@ -1,0 +1,41 @@
+size(600,600);
+background(#5a9917);
+//background
+noStroke();
+fill(#c4a31f);
+rect(0,0,300,230);
+noStroke();
+fill(#177099);
+rect(0,230,300,200);
+noStroke();
+fill(#a11606);
+rect(0,430,300,200);
+noStroke();
+fill(#78d971);
+rect(300,350,300,300);
+//body
+stroke(1);
+fill(100);
+ellipse(300, 650, 300, 400);
+fill(198,134,66);
+rect(250, 350, 100, 160);
+fill(#704139);
+rect(300, 350, 50, 160);
+// face
+fill(0);
+ellipse(300,250, 280, 330);
+fill(198,134,66);
+ellipse(300,300,250,300);
+fill(#704139);
+arc(300,  300, 250, 300, 0, HALF_PI);
+fill(246);
+triangle(330, 300, 420, 300, 330, 250);
+fill(16);
+ellipse(350,275,10,10);
+fill(246);
+triangle(190, 300, 270, 300, 245,340);
+fill(16);
+ellipse(245,320,10,10);
+strokeWeight(4);
+line(245,190,300,285);
+line(355,190,300,285);
